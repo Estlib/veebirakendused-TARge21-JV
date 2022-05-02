@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        span
+        {
+            font-weight: 700;
+        }
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>UML diagrams – which diagram to use and why</h2>
+    <p><a href="https://drawio-app.com/uml-diagrams/">By Kymberly Fergusson</a></p>
+    <p>The Unified Modeling Language (UML) is a diagramming notation (language) that lets you visualize systems and software. 
+        It’s one of the most popular forms of diagramming in software development and became an ISO standard in 1997. 
+         Since then, there have been a few updates to add extra UML diagram types and to support new technologies in programming.
+    </p>
+    <p>There are two main categories and 14 different types of UML diagrams, each of which is used in a different situation.</p>
+    <ul>
+        <li><span>Structure diagrams:</span> show the static relationships between the components in the system.</li>
+        <li><span>Behavior diagrams:</span> show how the components in the system react to each other, they capture how the system changes, and in some diagrams, how it changes over time.</li>
+    </ul>
+
+    <button class="accordion">Agile</button>
+    <div class="panel">
+        <p>
+        <h4>The agile methodology after every development iteration, the customer is able to see the result and
+            understand if he is satisfied with it or he is not.</h4>
+        <ul>
+            <li> This is one of the advantages of the agile software development life cycle model. One of its
+                disadvantages is that with the absence of defined requirements it is difficult to estimate the resources
+                and development cost. Extreme programming is one of the practical use of the agile model. The basis of
+                such model consists of short weekly meetings – Sprints which are the part of the Scrum approach.</li>
+        </ul>
+        <hr>
+        <h4>Use causes for the Agile model:</h4>
+        <ul>
+            <li>
+                The users needs change dynamically.
+                Less price for the changes implemented because of the many iterations.
+                Unlike the Waterfall model, it requires only initial planning to start the project.
+            </li>
+        </ul>
+        <table border="1">
+            <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+            </tr>
+            <tr>
+                <td>Corrections of functional requirements are implemented into the development process to provide the
+                    competitiveness.</td>
+                <td>Difficulties with measuring the final cost because of permanent changes.</td>
+            </tr>
+            <tr>
+                <td>Project is divided by short and transparent iterations.</td>
+                <td>The team should be highly professional and client-oriented.</td>
+            </tr>
+            <tr>
+                <td>Risks are minimized thanks to the flexible change process.</td>
+                <td>New requirements may conflict with the existing architecture.</td>
+            </tr>
+            <tr>
+                <td>Fast release of the first product version.</td>
+                <td>With all the corrections and changes there is possibility that the project will exceed expected
+                    time.</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <button class="accordion">Big Bang</button>
+    <div class="panel">
+        <p>
+        <h4>The Big Band model is one of the most basic models which is implemented by the newcomers and the students as
+            it is fairly easy to implement. This is because no prior planning for the project life cycle needs to be
+            done which can however lead to certain risks.</h4>
+        <ul>
+            <li>
+                For this, one can just start production of the project with capital and human resources.
+                There is a much greater probability that the final product might not be in accordance to the
+                requirements specified by the.
+                This can drop the reputation of the organization among the clients.
+                However, the requirements can easily be added into the project once it gets started and even while it is
+                near completion and that too without much of analysis.
+                This model is best suited for relatively smaller projects which are not supposed to be used by larger
+                organizations or for significant purposes. It is primarily used for academic purposes where timeline and
+                budget are not specified and are solely being developed for practice purposes.
+            </li>
+        </ul>
+
+        <hr>
+        <table border="1">
+            <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+            </tr>
+            <tr>
+                <td>It is a fairly simple model which makes it relatively easy to manage. Thus it does not drain out too
+                    much energy from the team.</td>
+                <td>The model is not suitable for large projects by any means as it would not provide any sought of
+                    support that is required in such projects.</td>
+            </tr>
+            <tr>
+                <td>Being a simple model, there is a requirement of less resources.</td>
+                <td>As the requirements are not determined at the initial stages, there can be greater chances that the
+                    requirements might be misunderstood. This gap can lead to greater financial and time losses.</td>
+            </tr>
+            <tr>
+                <td>As it is easy to implement, it is the prime choice for the majority of students. Mostly, it is
+                    because of its as easy implementation as an SDLC model.</td>
+                <td>This model is not at all suitable for object-oriented projects and otherwise complex projects. It is
+                    because such projects require fairly sought-after techniques and experienced staff members.</td>
+            </tr>
+            <tr>
+                <td>It gives a lot of flexibility to the developers, so that they can make certain changes which allows
+                    them to be innovative and do not make them stick to given guidelines only.</td>
+                <td>It is also not suitable for ongoing projects, as it can be the reason for scraping of the project.
+                </td>
+            </tr>
+            <tr>
+                <td>For the implementation of this model, a team does not need to plan the whole lifecycle prior to the
+                    beginning of the project.</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <button class="accordion">DevOps</button>
+    <div class="panel">
+        <p>
+        <h4>The DevOps methodology is the newcomer to the SDLC scene. it emerged from two trends: the application of
+            Agile and Lean practices to operations work and the general shift in business toward seeing the value of
+            collaboration between development and operations staff at all stages of the SDLC process.</h4>
+        <ul>
+            <li>
+                In a DevOps model, Developers and Operations teams work together closely and sometimes as one team to
+                accelerate innovation and the deployment of higher-quality and more reliable software products and
+                functionalities. Updates to products are small but frequent. Discipline, continuous feedback and process
+                improvement, and automation of manual development processes are all hallmarks of the DevOps model.
+            </li>
+        </ul>
+        <hr>
+        <table border="1">
+            <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+            </tr>
+            <tr>
+                <td>Cloud-based DevOps makes it easier to collaborate, putting all the tools in the cloud so they can be
+                    accessed by users anywhere.</td>
+                <td>Outsourcing a DevOps infrastructure requires a specific level of software development expertise,
+                    including an in-depth understanding of integration, infrastructure, and orchestrating workflow.</td>
+            </tr>
+            <tr>
+                <td>Outsourcing a DevOps infrastructure requires a specific level of software development expertise,
+                    including an in-depth understanding of integration, infrastructure, and orchestrating workflow.</td>
+                <td>Cloning an enterprise infrastructure for test purposes is complex and can lead to unforeseen
+                    compatibility problems.</td>
+            </tr>
+            <tr>
+                <td>Using DevOps as a Service hides the complexities of data and information flow, which means DevOps
+                    team members can focus on their specific tools without having to understand the entire toolchain.
+                </td>
+                <td>Security is always a concern.</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <button class="accordion">Extreme programming</button>
+    <div class="panel">
+        <p>
+        <h4>Extreme Programming is one of Agile methodologies. It shares all Agile principles including strong customer
+            involvement in the software development process, good communication inside of the teams, and iterative
+            cycles of development.</h4>
+        <hr>
+        <table border="1">
+            <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+            </tr>
+            <tr>
+                <td>The main advantage of Extreme Programming is that this methodology allows software development
+                    companies to save costs and time required for project realization. Time savings are available
+                    because of the fact that XP focuses on the timely delivery of final products. Extreme Programming
+                    teams save lots of money because they don’t use too much documentation. They usually solve problems
+                    through discussions inside of the team.</td>
+                <td>Some specialists say that Extreme Programming is focused on the code rather than on design. That may
+                    be a problem because good design is extremely important for software applications. It helps sell
+                    them in the software market. Additionally, in XP projects the defect documentation is not always
+                    good. Lack of defect documentation may lead to the occurrence of similar bugs in the future.</td>
+            </tr>
+            <tr>
+                <td>Simplicity is one more advantage of Extreme Programming projects. The developers who prefer to use
+                    this methodology create extremely simple code that can be improved at any moment.</td>
+                <td>One more disadvantage of XP is that this methodology does not measure code quality assurance. It may
+                    cause defects in the initial code.</td>
+            </tr>
+            <tr>
+                <td>The whole process in XP is visible and accountable. Developers commit what they will accomplish and
+                    show progress.</td>
+                <td>XP is not the best option if programmers are separated geographically.</td>
+            </tr>
+            <tr>
+                <td>Constant feedback is also the strong side.It is necessary to listen and make any changes needed in
+                    time.</td>
+            </tr>
+            <tr>
+                <td>XP assists to create software faster thanks to the regular testing at the development stage.</td>
+            </tr>
+            <tr>
+                <td>Extreme Programming contributes increasing employee satisfaction and retention.</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <button class="accordion">Iterative</button>
+    <div class="panel">
+        <p>
+        <h4>The Iterative SDLC model does not need the full list of requirements before the project starts. The
+            development process may start with the requirements to the functional part, which can be expanded later. The
+            process is repetitive, allowing to make new versions of the product for every cycle.</h4>
+        <hr>
+        <h4>Use cases for Iterative model:</h4>
+        <ul>
+            <li>
+                The requirements to the final product are strictly predefined
+                Applied to the large-scale projects
+                The main task is predefined, but the details may advance with the time
+            </li>
+        </ul>
+        <hr>
+        <table border="1">
+            <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+            </tr>
+            <tr>
+                <td>Some functions can be quickly developed at the beginning of the development lifecycle.</td>
+                <td>Iterative model requires more resources than the waterfall model.</td>
+            </tr>
+            <tr>
+                <td>The paralleled development can be applied.</td>
+                <td>Constant management is required. Issues with architecture or design may occur because not all the
+                    requirements are foreseen during the short planning stage.</td>
+            </tr>
+            <tr>
+                <td>The progress is easily measurable. The shorter iteration is - the easier testing and debugging
+                    stages are.</td>
+                <td>Bad choice for the small projects. The process is difficult to manage.</td>
+            </tr>
+            <tr>
+                <td>It is easier to control the risks as high-risk tasks are completed first.</td>
+                <td>The risks may not be completely determined even at the final stage of the project.</td>
+            </tr>
+            <tr>
+                <td>Problems and risks defined within one iteration can be prevented in the next sprints.</td>
+                <td>Risks analysis requires involvement of the highly-qualified specialists.</td>
+            </tr>
+            <tr>
+                <td>Flexibility and readiness to the changes in the requirements.</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <button class="accordion">Spiral</button>
+    <div class="panel">
+        <p>
+        <h4>Spiral model is also known as Meta Model because it subsumes all the other SDLC models. In its diagrammatic
+            representation, it looks like a spiral with many loops, that’s the reason it’s called as Spiral. Each loop
+            of the spiral is called a Phase of the software development process. This model has capability to handle
+            risks.</h4>
+        <hr>
+        <h4>Use cases for spiral model:</h4>
+        <ul>
+            <li>
+                Customer isn’t sure about the requirements.
+                Major edits are expected during the development cycle.
+                The projects with mid or high-level risk, where it is important to prevent these risks.
+                The new product that should be released in a few stages to have enough of clients feedback.
+            </li>
+        </ul>
+        <hr>
+        <table border="1">
+            <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+            </tr>
+            <tr>
+                <td>Software is produced early in the software life cycle.</td>
+                <td>It is not suitable for small projects as it is expensive.</td>
+            </tr>
+            <tr>
+                <td>Risk handling is one of important advantages of the Spiral model, it is best development model to
+                    follow due to the risk analysis and risk handling at every phase.</td>
+                <td>It is much more complex than other SDLC models. Process is complex.</td>
+            </tr>
+            <tr>
+                <td>Flexibility in requirements. In this model, we can easily change requirements at later phases and
+                    can be incorporated accurately. Also, additional Functionality can be added at a later date.</td>
+                <td>Too much dependable on Risk Analysis and requires highly specific expertise.</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <button class="accordion">V-shape</button>
+    <div class="panel">
+        <p>
+        <h4>V-shaped SDLC model is an expansion of classic waterfall model and it’s based on associated test stage for
+            the every development stage. This is a very strict model and the next stage is started only after the
+            previous phase.</h4>
+        <hr>
+        <h4>Use causes for the v-shaped model:</h4>
+        <ul>
+            <li>
+                For the projects where an accurate product testing is required
+                For the small and mid-sized projects, where requirements are strictly predefined
+                The engineers of the required qualification, especially testers, are within easy reach.
+            </li>
+        </ul>
+        <hr>
+        <table border="1">
+            <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+            </tr>
+            <tr>
+                <td>Every stage of V-shaped model has strict results so it’s easy to control.</td>
+                <td>Lack of the flexibility.</td>
+            </tr>
+            <tr>
+                <td>Testing and verification take place in the early stages.</td>
+                <td>Bad choice for the small projects.</td>
+            </tr>
+            <tr>
+                <td>Good for the small projects, where requirements are static and clear.</td>
+                <td>Relatively big risks.</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <button class="accordion">Prototype</button>
+    <div class="panel">
+        <p>
+        <h4>Prototype is a working model of software with some limited functionality. The prototype does not always hold
+            the exact logic used in the actual software application and is an extra effort to be considered under effort
+            estimation.</h4>
+        <ul>
+            <li>
+                Prototyping is used to allow the users evaluate developer proposals and try them out before
+                implementation. It also helps understand the requirements which are user specific and may not have been
+                considered by the developer during product design.
+            </li>
+        </ul>
+        <hr>
+        <table border="1">
+            <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+            </tr>
+            <tr>
+                <td>Increased user involvement in the product even before its implementation.</td>
+                <td>Risk of insufficient requirement analysis owing to too much dependency on the prototype.</td>
+
+            </tr>
+            <tr>
+                <td>Since a working model of the system is displayed, the users get a better understanding of the system
+                    being developed.</td>
+                <td>Users may get confused in the prototypes and actual systems.</td>
+            </tr>
+            <tr>
+                <td>Reduces time and cost as the defects can be detected much earlier.</td>
+                <td>Practically, this methodology may increase the complexity of the system as scope of the system may
+                    expand beyond original plans.</td>
+            </tr>
+            <tr>
+                <td>Quicker user feedback is available leading to better solutions.</td>
+                <td>Developers may try to reuse the existing prototypes to build the actual system, even when it is not
+                    technically feasible.</td>
+            </tr>
+            <tr>
+                <td>Missing functionality can be identified easily.</td>
+                <td>The effort invested in building prototypes may be too much if it is not monitored properly.</td>
+            </tr>
+            <tr>
+                <td>Confusing or difficult functions can be identified.</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <button class="accordion">Waterfall</button>
+    <div class="panel">
+        <p>
+        <h4>Waterfall – is a cascade SDLC model, in which development process looks like the flow, moving step by step
+            through the phases of analysis, projecting, realization, testing, implementation, and support.</h4>
+        <ul>
+            <li>This SDLC model includes gradual execution of every stage completely. This process is strictly
+                documented and predefined with features expected to every phase of this software development life cycle
+                model.</li>
+        </ul>
+        <hr>
+        <h4>Use causes for the Waterfall model:</h4>
+        <ul>
+            <li>
+                The requirements are precisely documented.
+                Product definition is stable.
+                The technologies stack is predefined which makes it not dynamic.
+                No ambiguous requirements.
+                The project is short.
+            </li>
+        </ul>
+        <hr>
+        <table border="1">
+            <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+            </tr>
+            <tr>
+                <td>Simple to use and understand.</td>
+                <td>The software is ready only after the last stage is over.</td>
+            </tr>
+            <tr>
+                <td>Management simplicity thanks to its rigidity: every phase has a defined result and process review<.
+                        /td>
+                <td>High risks and uncertainty.</td>
+            </tr>
+            <tr>
+                <td>Development stages go one by one.</td>
+                <td>Not the best choice for complex and object-oriented projects.</td>
+            </tr>
+            <tr>
+                <td>Perfect for the small or mid-sized projects where requirements are clear and not equivocal.</td>
+                <td>Inappropriate for the long-term projects.</td>
+            </tr>
+            <tr>
+                <td>Easy to determine the key points in the development cycle.</td>
+                <td>The progress of the stage is hard to measure while it is still in the development.</td>
+            </tr>
+            <tr>
+                <td>Easy to classify and prioritize tasks.</td>
+                <td>Integration is done at the very end, which does not give the option of identifying the problem in
+                    advance.</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
